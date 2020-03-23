@@ -1,0 +1,41 @@
+body {
+    background: lightBlue;
+}
+
+.container {
+    width: 300px;
+    height: 400px;
+    margin: 60px auto 30px auto;
+}
+
+.kirby {
+    width: 300px;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 20px);
+    }
+    to {
+        transform: translate(0, 0px);
+    }
+}
+
+.birthday {
+    background: rgb(255, 254, 238);
+    border-radius: 16px;
+    text-align: center;
+    padding: 36px 24px;
+    margin: 36px;
+    font-size: 8rem;
+    font-family: 'Cairo', sans-serif;
+    color: #ffa0ee;
+    \ box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12)
+}
